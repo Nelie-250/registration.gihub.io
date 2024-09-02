@@ -1,0 +1,117 @@
+.form{
+  position: absolute;
+  box-sizing: border-box;
+  box-shadow: 0 5px 10px rgb(21, 20, 20);
+  width: 40%;
+  height:50vh;
+  left: 30%;
+  top:20%;
+  border-radius: 20px;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 10px;
+  
+}
+input{
+  position: relative;
+  margin-bottom: 3px;
+  padding: 10px;
+  border:0;
+  border-bottom: 1px dotted gray;
+  border-radius: 5px;
+  display: flex;
+  left: 20%;
+  width: 60%;
+  
+}
+.btn{
+  background: blueviolet;
+  padding: 8px;
+  width: 60%;
+  border: 0;
+  border-radius: 10px;
+  cursor: pointer;
+}
+div span{
+  color: blueviolet;
+  cursor: pointer;
+}
+button img{
+  height: 30px;
+  padding: 2px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+button{
+  border: 0;
+  border-radius: 5px;
+  width: 100px;
+  background-color: #fff;
+  box-shadow: 2px 2px 2px gray;
+  
+}
+button:hover{
+  background: linear-gradient(wheat,white);
+  transition: 2s;
+}
+@media screen and (min-width:400px) {
+  h1{
+    
+    font-size:30px;
+    
+  }
+  .form{
+  
+    width: 70%;
+    left:15px;
+    height: 30vh;
+  }
+  
+}
+@media screen and (min-width:530px) {
+  h1{
+    margin: 35% 0 0 10%;
+    font-size:30px;
+    
+  }
+ 
+}
+@media screen and (min-width:800px) {
+  h1{
+    margin: 25% 0 0 10%;
+    font-size:30px;
+    
+  }
+ 
+}
+@media screen and (min-width:100px) {
+  h1{
+    margin: 15% 25%;
+    font-size:30px;
+    
+  }
+  .form{
+    width: 60%;
+    padding: 5px;
+    box-sizing: border-box;
+    left: 8%;
+    
+  }
+  @media screen and (min-width:1200px) {
+    h1{
+      margin: 5% 40%;
+      font-size:30px;
+      
+    }
+    .form{
+      width: 20%;
+      padding: 5px;
+      box-sizing: border-box;
+      left: 37%;
+      height: 50vh;
+      
+            
+    }
+ 
+}
+};
